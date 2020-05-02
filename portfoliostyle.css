@@ -90,7 +90,7 @@ h2 {
     font-size: 25px;
 }
 #sidebar {
-    padding-top: 30pxpx;
+    padding-top: 30px;
     font-size: 25px;
 }
 
@@ -132,6 +132,28 @@ h2 {
    body {
     width: 100%;
     }
+
+@media screen and (max-width: 350px) {  
+    .container a:not(:first-child) {display:none}
+    .container a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .container.responsive {position: relative;}
+    .container.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .container.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
 
 @media screen and (min-width: 768px) {
     body {
