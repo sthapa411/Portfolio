@@ -54,6 +54,14 @@ nav a:hover {
     background-color: thistle;
 }
 
+nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 #about { 
     background-color: mistyrose;
     width: 90%;
@@ -130,11 +138,10 @@ h2 {
     color: black;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (min-width: 350px) {
    body {
     width: 100%;
-    overflow: scroll;
-    }
+    }}
 
 
 @media screen and (min-width: 768px) {
@@ -163,7 +170,7 @@ h4 {
     font-size: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     text-shadow: mintcream;
-    padding: 100px;
+    margin: 10px;
 }
 
 #contact {
@@ -181,16 +188,12 @@ h4 {
     font-size: 35px;
 }
 
-.col-sm-6 {
-    padding: 20px;
-    text-align: center;
-}
-
 #form {
     font-size: 25px;
-    position: center;
-    width: 80%
+    margin: 20px;                
+    padding: 20px;
 }
+
 .container {
     width: 1024px;
     margin: 40px auto;
@@ -213,5 +216,5 @@ h4 {
 }
 
 form {
-    font-size: 35px;
+    padding-left: 50 px;
 }
