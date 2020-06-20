@@ -1,5 +1,6 @@
 # Portfolio
 
+Link to the deployed page:  
 
 Goal:
 To update to portfolio with links to my github projects, my linkedin, and to my git hub profile page which has also been updated with my profile picture, pinned projects, and my contact info. 
