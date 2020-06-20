@@ -1,6 +1,12 @@
-# homework2.github.io
+# Portfolio
+
+
 Goal:
-To create html page which links to the corresponding pages when clicked in its navigation bar. The goal was to utilize bootstrap components such as button, grid and column and create a webpage with responsive links. Media query was also used.
+To update to portfolio with links to my github projects, my linkedin, and to my git hub profile page which has also been updated with my profile picture, pinned projects, and my contact info. 
 
 Challenges:
-It was challenging or me to figure out certain aspects of responsive navbar, mediaquery. Given the time limit for the submission, I found myself not being able to keep on trying various factors that might have made my webpage look different and may be better. 
+I tried to design it completely differently at the begining. However, I ran with multiple design issues that proved to be time consuming. So, I decided to go with my previous design and tried to simplify it utilizing buttons, and cards.
+
+
+
+
