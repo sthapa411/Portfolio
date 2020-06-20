@@ -62,11 +62,27 @@ nav a {
     text-decoration: none;
 }
 
+html { 
+    width:100%; 
+    height:100%; 
+    margin:0;
+    padding:0; 
+}
+
+body { 
+    width:100%; 
+    height:100%; 
+    margin:0; 
+    padding:0; 
+    background-color: mistyrose;
+    overflow-x: hidden;
+}
+
 #about { 
     background-color: mistyrose;
-    width: 90%;
-    margin: 20px auto;
+    width: 100%;
 }
+
 #about img {
     float: left;
     position: relative;
@@ -123,6 +139,12 @@ h2 {
     font-size: 20px;
     color: black
 }
+
+#projectbtn {
+    margin: 20px;
+    float: center;
+    margin-left: 220px;
+}
 .portfolio-para p {
     right: 0;
     left: 0;
@@ -141,6 +163,7 @@ h2 {
 @media screen and (min-width: 350px) {
    body {
     width: 100%;
+    mar
     }}
 
 
@@ -149,6 +172,14 @@ h2 {
         margin-left: 30px;
         margin-left: 30px;
     }}
+
+.card-columns {
+    @include media-breakpoint-only(lg) {
+        column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+        column-count: 5;
+}
 
 .card-img-top {
     height: 150px;
