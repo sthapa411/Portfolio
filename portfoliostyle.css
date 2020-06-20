@@ -32,6 +32,9 @@ nav {
     background-color: olive;
 }
 
+.navbar-expand-lg {
+    padding; 0px;
+}
 nav ul {
     list-style: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
@@ -43,8 +46,8 @@ nav ul {
 }
 
 nav li {
-    display: inline-block;
-    margin-left: 70px;
+    margin-left: 70px;;
+    padding: 0px
 }
 nav a:active {
     background-color:  rgb(143, 199, 224) ;
@@ -118,26 +121,6 @@ h2 {
     padding: 15px;
     font-size: 25px;
     text-align: justify ;
-}
-
-.jumbotron {
-    padding: 100px;
-    background-color: mediumblue;
-}
-
-.display4 {
-    text-align: center;
-    padding: 20px;
-}
-
-.lead {
-    font-size: 35px;
-    color: olive
-}
-
-.my-4 {
-    font-size: 20px;
-    color: black
 }
 
 #projectbtn {
