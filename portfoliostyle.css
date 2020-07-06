@@ -81,6 +81,10 @@ body {
     overflow-x: hidden;
 }
 
+.col-sm-12 {
+    padding: 50px;
+}
+
 #about { 
     background-color: mistyrose;
     width: 100%;
